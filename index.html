@@ -24,13 +24,13 @@
     </div>
 <br>
     <form>
-        <input class="search-input" placeholder="Search the web freely...">
+        <input id="input" class="search-input" placeholder="Search the web freely...">
     </form>
     <div class="text-center">
    <button>Open Page</button>
 <script>
     var urlObj = new window.URL(window.location.href);
-    var url = "jurlyx.github.io/Statix/index.html";
+    var url = document.GetElementById.input;
  
     if (url) {
         var win;
